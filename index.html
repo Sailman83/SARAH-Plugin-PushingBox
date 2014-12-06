@@ -24,6 +24,7 @@
             <li><a href="#" data-toggle="plugin-HTTP">La requète via URL</a></li>
 			<li><a href="#" data-toggle="plugin-retour">Retour de la fonction</a></li>
             <li><a href="#" data-toggle="plugin-examples">Exemples</a></li>
+		    <li><a href="#" data-toggle="plugin-pushingBox">Tutorial PushingBox</a></li>
             <li><a href="#" data-toggle="plugin-infos">Infos</a></li>
         </ul>
     </div>
@@ -81,7 +82,22 @@
 			http://IP_DU_NODEJS/sarah/PushingBox?qui=Thomas&titre=Message+de+SARAH:&message=dictation
 			</br></br>
 		</ul>
-       
+		
+		<ul class="unstyled" id="plugin-pushingBox" style="display: none;">
+			<div class="alert alert-success">Tutorial pour PushingBox.com</div>
+			  1 - https://www.pushingbox.com/index.php</br>
+			  2 - Active le compte grace a un compte Google</br>
+			  3 - Ajouter un service suivant votre peripherique. iOS, Android, WindowsPhone ... https://www.pushingbox.com/services.php</br>
+			  4 - Creer un scenario </br>
+			      &nbsp;- Remplire le nom du scenario. Par exemple" Plugin PushingBox"</br>
+			      &nbsp;- Recupere le "DeviceID" pour le plugin</br>
+			      &nbsp;- Puis "Add in action"</br>
+			      &nbsp;- Selectionner le peripherique d'affichage du push</br>
+			      &nbsp;- Dans le POP-UP le "Title" mettre : $titre$</br>
+			      &nbsp;- Dans "Message" mettre  : $msg$</br>
+			  5 - Dans les proprietes du plugin copier votre DeviceID</br>
+			  Fini</br>
+        </ul>       
 	   <!--Infos-->
         <ul class="unstyled" id="plugin-infos" style="display: none;">
             <div class="alert alert-success">Infos</div>
